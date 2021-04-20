@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+   
+    background: rgb(241, 206, 91);
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedor {
+    background: rgb(189, 156, 84);
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+  
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    
+}
+
+/*slider*/
+
+.slider {
+  
+   margin: auto;
+   overflow: hidden;
+ 
+  
+    
+}
+.slider ul {
+    list-style: none;
+    width: 400%;
+    display: flex;
+    padding: 0px;
+    animation:  cambio 20s infinite alternate;
+
+}
+
+.slider ul:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 450px;
+    
+}
+
+@keyframes cambio {
+    0%{ margin-left: 0%;}
+    20%{ margin-left: 0%;}
+
+    25%{ margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+
+    75%{ margin-left: -300%;}
+    100%{ margin-left: -300%;}
+}
+
+/*fin del slider*/
+
+
+footer {
+    width: 100%;
+    height: 180px;
+    padding-top: 10px;
+    display: contents;
+   
+}
+
+.container-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+   
+    
+  
+}
+
+.column1  {
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+.column1 h2 {
+    width: 80%;
+    margin: auto;
+ 
+
+}
+
+.row {
+    width: 100%;
+    height: auto;
+
+}
+.row img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+   
+}
+
+
+
+
+.column2 {
+    width: 100%;
+    height: 100%;
+}
+
+.column2 h2{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+  
+
+}
+
+.column2  p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    justify-content: center;
+    
+    
+}
+
+
